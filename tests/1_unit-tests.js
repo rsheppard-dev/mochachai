@@ -69,9 +69,9 @@ suite('Unit Tests', function () {
     // #9
     test('#isBelow, #isAtLeast', function () {
       assert.isAtLeast('world'.length, 5);
-      assert.isBelow(2 * Math.random(), 0);
+      assert.isAtLeast(2 * Math.random(), 0);
       assert.isBelow(5 % 2, 2);
-      assert.isAtLeast(2 / 3, 1);
+      assert.isBelow(2 / 3, 1);
     });
     // #10
     test('#approximately', function () {
