@@ -106,7 +106,7 @@ suite('Unit Tests', function () {
     // #13
     test('#isString, #isNotString', function () {
       assert.isNotString(Math.sin(Math.PI / 4), 'a float is not a string');
-      assert.isNotString(process.env.PATH, 'env vars are strings (or undefined)');
+      assert.isString(process.env.PATH, 'env vars are strings (or undefined)');
       assert.isString(JSON.stringify({ type: 'object' }), 'a JSON is a string');
     });
     // #14
