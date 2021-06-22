@@ -112,7 +112,7 @@ suite('Unit Tests', function () {
     // #14
     test('String #include, #notInclude', function () {
       assert.include('Arrow', 'row', "Arrow contains row...");
-      assert.notInlcude('dart', 'queue', "But a dart doesn't contain a queue");
+      assert.notInclude('dart', 'queue', "But a dart doesn't contain a queue");
     });
     // #15
     test('#match, #notMatch', function () {
